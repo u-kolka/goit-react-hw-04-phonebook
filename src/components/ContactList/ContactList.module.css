@@ -1,0 +1,22 @@
+.contact__item {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+
+.contact__btn {
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 5px;
+}
+
+.contact__btn:not(:last-child) {
+    margin-left: 10px;
+}
+
+.contact__btn:active {
+    background-color: rgb(109, 182, 251);
+}
