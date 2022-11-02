@@ -27,7 +27,6 @@ function ContactForm({ onFormSubmit }) {
 
     const handleSabmit = event => {
         event.preventDefault();
-
         onFormSubmit(contact)
         reset();
     };
@@ -69,6 +68,5 @@ function ContactForm({ onFormSubmit }) {
 ContactForm.propTypes = {
  onFormSubmit: PropTypes.func.isRequired,
 }
-
 
 export default ContactForm;
